@@ -1,7 +1,7 @@
 # AutoDeploy
 
 **AutoDeploy** is a Go-based HTTP service designed for seamless file deployment. The service accepts a ZIP file, extracts it to a target directory, generates an Nginx configuration to serve the content, and reloads Nginx automatically to apply the new configuration. This tool is ideal for automating the deployment of static sites or other file-based web applications.
-
+( it just for deploy static sites that has index.html )
 ## Features
 
 - **File Upload**: Accepts ZIP files through an HTTP POST request.
